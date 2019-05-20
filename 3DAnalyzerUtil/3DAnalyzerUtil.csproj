@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<ItemGroup>
+  <PackageReference Include="ixmilia.stl" Version="0.1.1" />
+</ItemGroup>
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>_3DAnalyzerUtil</RootNamespace>
+  </PropertyGroup>
+
+</Project>

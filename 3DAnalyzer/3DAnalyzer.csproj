@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\3DAnalyzerUtil\3DAnalyzerUtil.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.3.65" />
+    <PackageReference Include="ixmilia.stl" Version="0.1.1" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+  <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+     <RuntimeIdentifiers>win10-x64;osx.10.11-x64;ubuntu.18.04-x64</RuntimeIdentifiers>
+    <RootNamespace>3DAnalyzer</RootNamespace>
+  </PropertyGroup>
+
+</Project>
